@@ -41,12 +41,6 @@ export default [
         file: pkg.main,
         format: 'cjs',
         globals
-      },
-      {
-        name: pkg.name,
-        file: pkg.browser,
-        format: 'umd',
-        globals
       }
     ],
     plugins
